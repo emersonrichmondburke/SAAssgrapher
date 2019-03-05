@@ -28,6 +28,9 @@ function zoomIn() {
  k=k+3;
  resetCanvas();
 }
+function reset() {
+  init();
+}
 
 function resetCanvas() {
  
